@@ -250,7 +250,8 @@
                   <h2>Добрый день!</h2>
                   <div class="popup__text">
                     <p>
-                      На данный момент на сайте ведутся работы.<br>Просмотр проектов временно не доступен!
+                      На данный момент на сайте ведутся работы.<br />Просмотр
+                      проектов временно не доступен!
                     </p>
                   </div>
                   <button id="popup-exit" class="popup__button">
@@ -295,9 +296,17 @@
                 </p>
               </div>
               <form action="" class="history__form-form">
-                <input id="nameInput" minlength="2" type="text" name="name" class="form__input" placeholder="Ваше имя" required/>
                 <input
-                  id="phoneInput" 
+                  id="nameInput"
+                  minlength="2"
+                  type="text"
+                  name="name"
+                  class="form__input"
+                  placeholder="Ваше имя"
+                  required
+                />
+                <input
+                  id="phoneInput"
                   type="phone"
                   name="phone"
                   pattern="^\+7[1-9]{10}$"
@@ -307,11 +316,19 @@
                 />
                 <button id="form-btn" type="submit" class="form__button">
                   Заказать звонок
-                  <img
-                    class="btn-icon-black pb-icon"
-                    src="/img/icon/arrow-right.svg"
-                    alt="arrow-right"
-                  />
+                  <svg
+                    width="28"
+                    height="12"
+                    viewBox="0 0 28 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="btn-icon-arrow"
+                  >
+                    <path
+                      d="M28 6L18 0.226499L18 11.7735L28 6ZM-8.74228e-08 7L19 7L19 5L8.74228e-08 5L-8.74228e-08 7Z"
+                      fill="#141518"
+                    />
+                  </svg>
                 </button>
                 <p class="form__privacy form__privacy--bottom">
                   *Мы никому не передаем ваши данные.<br />И не сохраняем ваш
