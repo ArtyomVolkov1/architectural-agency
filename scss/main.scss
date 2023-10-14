@@ -1,0 +1,20 @@
+// base
+
+@import './base/reset';
+@import './base/vars';
+@import './base/mixin';
+@import './base/base';
+
+// block
+
+@import './blocks/modals';
+
+@import './blocks/header';
+@import './blocks/nav';
+@import './blocks/nav-icon';
+@import './blocks/services';
+@import './blocks/projects';
+@import './blocks/card';
+@import './blocks/history';
+@import './blocks/history-form';
+@import './blocks/footer';

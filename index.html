@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header id="main" class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-row">
+            <a href="#main">
+              <img src="./img/icon/logo.svg" alt="logo" />
+            </a>
+            <div class="header__nav">
+              <nav class="nav">
+                <ul class="nav__list">
+                  <li>
+                    <a class="nav__item nav__item--active" href="#!">Главная</a>
+                  </li>
+                  <li><a class="nav__item" href="#portfolio">Портфолио</a></li>
+                  <li><a class="nav__item" href="#services">Услуги</a></li>
+                  <li>
+                    <a class="nav__item nav__item--contact" href="#contacts"
+                      >Контакты</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header__nav-btn">
+              <button class="nav-icon-btn">
+                <div class="nav-icon"></div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="header__main">
+          <h1 class="header__title">АРХИТЕКТУРНОЕ БЮРО</h1>
+          <img
+            class="header__img"
+            src="./img/header/header-row-img.jpg"
+            alt="header"
+          />
+          <p class="header__text">
+            Отсекая всё лишнее, объединяем архитектуру, конструктив и решение в
+            одно гармоничное повествование.
+          </p>
+        </div>
+        <hr class="dark-line" />
+      </div>
+      <div class="header__footer">
+        <div class="container">
+          <div class="header__footer-img">
+            <img src="./img/header/header-footer-img.png" alt="header-footer" />
+          </div>
+          <div class="header__footer-socials">
+            <ul class="socials">
+              <li><a class="socials-item" href="#!">twitter</a></li>
+              <li><a class="socials-item" href="#!">facebook</a></li>
+              <li><a class="socials-item" href="#!">instagram</a></li>
+            </ul>
+            <div class="header__footer-btn">
+              <a href="#form-cta" class="btn-black">
+                Рассчитать проект
+                <svg
+                  width="28"
+                  height="12"
+                  viewBox="0 0 28 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="btn-icon-arrow"
+                    d="M28 6L18 0.226499L18 11.7735L28 6ZM-8.74228e-08 7L19 7L19 5L8.74228e-08 5L-8.74228e-08 7Z"
+                    fill="#141518"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="services" class="services">
+        <div class="container">
+          <div class="services__title">
+            <h2>УСЛУГИ</h2>
+          </div>
+          <div class="over-line">
+            <span class="text-num">01</span>
+            <span class="text-muted">Ландшафтный дизайн</span>
+          </div>
+          <hr class="white-line" />
+          <div class="services__cards">
+            <div class="services__card">
+              <img
+                class="services__card-img"
+                src="./img/services-card/01.jpg"
+                alt="01"
+              />
+              <p class="services__card-text">
+                Обустройство придомовой<br />территории, с участием особой<br />философии
+                объединяющей<br />ландшафтных элементов и флоры.
+              </p>
+            </div>
+            <div class="over-line">
+              <span class="text-num">02</span>
+              <span class="text-muted">Интерьерный дизайн</span>
+            </div>
+            <hr class="white-line" />
+            <div class="services__card">
+              <p class="services__card-text">
+                Совокупность художественного и<br />промышленного дизайна с
+                целью<br />обеспечить удобство и эстетическое<br />восприятия
+                пространства.
+              </p>
+              <img
+                class="services__card-img"
+                src="./img/services-card/02.jpg"
+                alt="02"
+              />
+            </div>
+            <div class="over-line">
+              <span class="text-num">03</span>
+              <span class="text-muted">Строительство</span>
+            </div>
+            <hr class="white-line" />
+            <div class="services__card">
+              <img
+                class="services__card-img"
+                src="./img/services-card/03.jpg"
+                alt="03"
+              />
+              <p class="services__card-text">
+                Возведение зданий и сооружений,<br />а также их капитальный и
+                текущий<br />ремонт, реконструкция,<br />реставрация и
+                реновация.
+              </p>
+            </div>
+            <div class="over-line">
+              <span class="text-num">04</span>
+              <span class="text-muted">Интерьерный дизайн</span>
+            </div>
+            <hr class="white-line" />
+            <div class="services__card">
+              <p class="services__card-text">
+                Мы помогаем строителям,<br />производителям и поставщикам<br />вникнуть
+                в суть проектных решений<br />и разобраться в документации.
+              </p>
+              <img
+                class="services__card-img"
+                src="./img/services-card/04.jpg"
+                alt="04"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="projects none1">
+        <div id="overlay"></div>
+        <div class="container">
+          <div class="projects__title">
+            <h2>
+              КАЖДЫЙ<img
+                class="home-icon"
+                src="./img/icon-project/home-1.png"
+                alt="home-1"
+              />ПРОЕКТ<br />
+              ИМЕЕТ СВОЙ ХАРАКТЕР<br /><img
+                class="home-icon"
+                src="./img/icon-project/home-2.png"
+                alt="home-2"
+              />И НАСТРОЕНИЕ
+            </h2>
+          </div>
+          <div class="projects__cards">
+            <div class="project__card">
+              <a href="#!" class="card">
+                <img
+                  class="project__card-img"
+                  src="./img/projects-cards/project-1.jpg"
+                  alt="project-1"
+                />
+              </a>
+              <div class="project__card-description">
+                Строительство<span>2020</span>
+              </div>
+              <h3 class="cards-title-3">Коттедж “Афина”</h3>
+              <hr class="line-muted" />
+            </div>
+            <div class="project__card">
+              <a href="#!" class="card">
+                <img
+                  class="project__card-img"
+                  src="./img/projects-cards/project-2.jpg"
+                  alt="project-1"
+                />
+              </a>
+              <div class="project__card-description">
+                Дизайн интерьера<span>2018</span>
+              </div>
+              <h3 class="cards-title-3">Интерьер “Фэн-шуй”</h3>
+              <hr class="line-muted" />
+            </div>
+            <div class="project__card">
+              <a href="#!" class="card">
+                <img
+                  class="project__card-img"
+                  src="./img/projects-cards/project-3.jpg"
+                  alt="project-1"
+                />
+              </a>
+              <div class="project__card-description">
+                Дизайн интерьера<span>2018</span>
+              </div>
+              <h3 class="cards-title-3">Интерьер “Синтез”</h3>
+              <hr class="line-muted mb-line" />
+            </div>
+            <div class="project__card">
+              <a href="#!" class="card">
+                <img
+                  class="project__card-img"
+                  src="./img/projects-cards/project-4.jpg"
+                  alt="project-1"
+                />
+              </a>
+              <div class="project__card-description">
+                Строительство
+                <span>2018</span>
+              </div>
+              <h3 class="cards-title-3">Коттедж “Персей”</h3>
+              <hr class="line-muted mb-btn" />
+              <button id="projects-btn" class="projects__button">
+                Смотреть все проекты
+                <img
+                  class="btn-icon-white"
+                  src="./img/icon/arrow-white.svg"
+                  alt="arrow-white"
+                />
+              </button>
+              <div id="popup-projects" class="popup">
+                <div class="popup__container">
+                  <h2>Добрый день!</h2>
+                  <div class="popup__text">
+                    <p>
+                      На данный момент на сайте ведутся работы.<br>Просмотр проектов временно не доступен!
+                    </p>
+                  </div>
+                  <button id="popup-exit" class="popup__button">
+                    Вернуться
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="history none1">
+        <div class="container">
+          <hr class="dark-line" />
+          <div class="history__wrapper">
+            <div class="history__title">
+              <h2>ИСТОРИЯ</h2>
+              <h3>ARTPOINT</h3>
+            </div>
+            <div class="history__description">
+              <p>
+                ART POINT была основана в 2008<br />году. Мы работаем в
+                отраслях<br />жилой-коммерческой архитектуры,<br />дизайна
+                интерьера и ландшафта.
+              </p>
+            </div>
+          </div>
+          <div class="history__achievements">
+            <img src="./img/history-img/history-bg.png" alt="history-bg" />
+            <img src="./img/history-img/history-img.jpg" alt="history-img-1" />
+          </div>
+          <div id="form-cta" class="history__form">
+            <div class="history__form__wrapper">
+              <div class="history__form-title">
+                <h2>БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</h2>
+              </div>
+              <div class="history__form-text">
+                <p>
+                  Хотите узнать больше о наших услугах? Оставьте свои
+                  контактные<br />данные и наш специалист свяжется с Вами в
+                  ближайшее время.
+                </p>
+              </div>
+              <form action="" class="history__form-form">
+                <input id="nameInput" minlength="2" type="text" name="name" class="form__input" placeholder="Ваше имя" required/>
+                <input
+                  id="phoneInput" 
+                  type="phone"
+                  name="phone"
+                  pattern="^\+7[1-9]{10}$"
+                  class="form__input"
+                  placeholder="+7 (---) --- -- --"
+                  required
+                />
+                <button id="form-btn" type="submit" class="form__button">
+                  Заказать звонок
+                  <img
+                    class="btn-icon-black pb-icon"
+                    src="/img/icon/arrow-right.svg"
+                    alt="arrow-right"
+                  />
+                </button>
+                <p class="form__privacy form__privacy--bottom">
+                  *Мы никому не передаем ваши данные.<br />И не сохраняем ваш
+                  номер в базу.
+                </p>
+              </form>
+
+              <div id="popup-history" class="popup">
+                <div class="popup__container">
+                  <h2>Благодарим!</h2>
+                  <div class="popup__text">
+                    <p>Мы вам перезвоним в ближайшее время!</p>
+                  </div>
+                  <button id="popup-project-exit" class="popup__button">
+                    Вернуться
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__logo">
+            <a href="#main"
+              ><img src="./img/icon/logo-white.svg" alt="logo"
+            /></a>
+            <h2>ART POINT</h2>
+          </div>
+          <div class="footer__nav">
+            <nav>
+              <ul class="footer__nav-list">
+                <li>
+                  <a class="nav-item-white" href="#portfolio">Портфолио</a>
+                </li>
+                <li><a class="nav-item-white" href="#services">Услуги</a></li>
+                <li><a class="nav-item-white" href="#!">Сотрудничество</a></li>
+                <li>
+                  <a class="nav-item-white" href="#!"
+                    >Политика конфиденциальности</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div id="contacts" class="footer__address">
+            <ul class="footer__nav-address-list">
+              <li>Адрес: г. Санкт-Петербург, ул. Мира 98</li>
+              <li>
+                <a class="nav-item-white" href="tel:+7812628208"
+                  >Телефон: +7 812 628 20 28</a
+                >
+              </li>
+              <li>Отдел продаж: Пн-Пт: 10:00-19:00</li>
+              <li>
+                E-mail:<a class="nav-item-white" href="mailto:info@artpoint.ru">
+                  info@artpoint.ru</a
+                >
+              </li>
+            </ul>
+            <ul class="footer__socials">
+              <li><a class="nav-item-white" href="#!">VK</a></li>
+              <li><a class="nav-item-white" href="#!">TG</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
