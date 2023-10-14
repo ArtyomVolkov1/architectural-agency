@@ -114,6 +114,7 @@ legend {
 html {
   -webkit-scroll-behavior: smooth !important; /* For Safari and Chrome */
   scroll-behavior: smooth !important;
+  overflow-x: hidden;
 }
 
 body {
