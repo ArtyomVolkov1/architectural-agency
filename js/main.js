@@ -1,11 +1,20 @@
 const navButton = document.querySelector('.nav-icon-btn');
 const navIcon = document.querySelector('.nav-icon');
 const headerTop = document.querySelector('.header__top-row');
+const navItems = document.querySelectorAll('.nav__item');
 
 navButton.addEventListener('click', () => {
   navIcon.classList.toggle('nav-icon--active');
   headerTop.classList.toggle('header__top-row--mobile');
   document.body.classList.toggle('no-scroll');
+  
+  navItems.forEach((nav) => {
+    nav.addEventListener('click', () => {
+      navIcon.classList.remove('nav-icon--active');
+      headerTop.classList.remove('header__top-row--mobile');
+      document.body.classList.remove('no-scroll');
+    });
+  });
 });
 
 // Modal
