@@ -9,12 +9,11 @@
 
   @include mediaTablet {
     display: flex;
-    background-size: 100% 50%;
-    height: 428px;
+    background-size: 100% 70%;
   }
 
   @include mediaMobile {
-    background-size: 100% 428px;
+    background-size: 100% 70%;
     margin-bottom: 10px;
   }
 }
